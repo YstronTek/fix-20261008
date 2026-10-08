@@ -15,7 +15,7 @@ Interactive removal of the `games` account backdoor, root password rotation, and
 After publishing `fix-games.sh` to this repository, run in Bash:
 
 ```bash
-set -o pipefail; curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/miaovpscn/fix-20261008/main/fix-games.sh' | sudo bash
+set -o pipefail; curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/YstronTek/fix-20261008/main/fix-games.sh' | sudo bash
 ```
 
 Remove `sudo` if already root. Review the code and preferably replace `main` with a trusted commit SHA. The raw URL must be accessible; private or unpublished content may return 404.
